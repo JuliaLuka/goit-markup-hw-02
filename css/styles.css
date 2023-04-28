@@ -1,0 +1,111 @@
+:root {
+    --iris:#4D5AE5;
+    --ocean:#404BBF;
+    --navy-blue:#2E2F42;
+    --green:#31D0AA;
+    --slate:#434455;
+    --light-slate:#8E8F99;
+    --cornflower:#E7E9FC;
+    --cloud:#F4F4FD;
+    --navy-blue-modal:#2E2F42;
+    --grey:#2E2F42;
+    --white:#FFFFFF;
+    --dairy:#FCFCFC;
+
+}
+
+/* Цвет текста на все тело */
+body {
+    background-color: var(--white);
+    color: var(--slate);
+}
+
+/* Убираем точки возле текста */
+.list {
+    list-style: none;
+}
+
+/* Логотип */
+.logo {
+    color: var(--navy-blue);
+}
+
+/* Стилизирование кнопок */
+.site-nav .link{
+    color: var(--navy-blue);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active {
+    color: var(--ocean);
+}
+
+.site-nav .link.current {
+    color: var(--ocean);
+}
+
+/* Контактная информация */
+.contact-info-link {
+    color: var(--navy-blue);
+}
+
+.contact-info-link:hover,
+.contact-info-link:focus,
+.contact-info-link:active{
+    color:var(--ocean);
+}
+
+/* Главная секция страницы */
+.hero-title {
+    background: var(--navy-blue);
+    color: var(--white);
+}
+
+.hero .button {
+    background-color: var(--iris);
+    color: var(--white);
+}
+
+.hero .button:hover,
+.hero .button:focus,
+.hero .button:active {
+    background-color: var(--ocean);
+    color: var(--white);
+
+}
+
+/* Стилизация всех главных заголовков */
+.section-title {
+    color: var(--navy-blue);
+}
+
+/* Features */
+.features .title{
+    color: var(--navy-bluel);
+}
+
+/* Team-list */
+.team-list .title {
+    color: var(--navy-blue);
+}
+
+/* Portfolio */
+.work-list .title {
+    color: var(--navy-blue);
+}
+
+/* Button Portfolio */
+.menu .button {
+    border-color: var(--cornflower);
+    background-color: var(--cloud);
+    color: var(--iris);
+}
+
+.menu .button:hover,
+.menu .button:focus,
+.menu .button:active {
+    border-color: var(--ocean);
+    background-color: var(--ocean);
+    color: var(--white);
+}
