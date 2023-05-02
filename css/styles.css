@@ -18,6 +18,11 @@
 body {
     background-color: var(--white);
     color: var(--slate);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Убираем точки возле текста */
@@ -28,11 +33,28 @@ body {
 /* Логотип */
 .logo {
     color: var(--navy-blue);
+
+    font-family: Raleway;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    
+}
+
+.logo .accent {
+    color: var(--iris);
 }
 
 /* Стилизирование кнопок */
 .site-nav .link{
     color: var(--navy-blue);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -48,6 +70,7 @@ body {
 /* Контактная информация */
 .contact-info-link {
     color: var(--navy-blue);
+    text-decoration: none;
 }
 
 .contact-info-link:hover,
@@ -57,14 +80,31 @@ body {
 }
 
 /* Главная секция страницы */
+
+.hero {
+    background: var(--navy-blue)
+}
+
 .hero-title {
-    background: var(--navy-blue);
     color: var(--white);
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    
 }
 
 .hero .button {
     background-color: var(--iris);
     color: var(--white);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero .button:hover,
@@ -78,34 +118,59 @@ body {
 /* Стилизация всех главных заголовков */
 .section-title {
     color: var(--navy-blue);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 /* Features */
 .features .title{
     color: var(--navy-bluel);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
+
 
 /* Team-list */
-.team-list .title {
-    color: var(--navy-blue);
-}
-
-/* Portfolio */
+.team-list .title 
 .work-list .title {
     color: var(--navy-blue);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
+.team {
+    background-color: var(--cloud);
+}
+
+
+/* Portfolio */
+
 /* Button Portfolio */
-.menu .button {
+.filter-btn {
     border-color: var(--cornflower);
     background-color: var(--cloud);
     color: var(--iris);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.menu .button:hover,
-.menu .button:focus,
-.menu .button:active {
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
     border-color: var(--ocean);
     background-color: var(--ocean);
     color: var(--white);
+
 }
+
