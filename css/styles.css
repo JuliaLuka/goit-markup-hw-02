@@ -67,9 +67,9 @@ body {
     color: #404BBF;
 }
 
-.site-nav .link.current {
+/* .site-nav .link.current {
     color: #404BBF;
-}
+} */
 
 /* Контактная информация */
 .contact {
@@ -98,8 +98,9 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
-    
+
 }
 
 .hero .button {
@@ -145,6 +146,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 
