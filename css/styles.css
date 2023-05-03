@@ -164,6 +164,9 @@ body {
 
 
 /* Portfolio */
+.filter.list {
+    list-style: none;
+}
 
 /* Button Portfolio */
 .filter-btn {
@@ -171,7 +174,7 @@ body {
     background-color: #F4F4FD;
     color: #4D5AE5;
 
-    font-family: inherit;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -181,13 +184,34 @@ body {
 }
 
 .filter-btn:hover,
-.filter-btn:focus,
-.filter-btn:active {
+.filter-btn:focus {
     border-color: #404BBF;
     background-color: #404BBF;
     color: #FFFFFF;
 
 }
+
+.work-list.list {
+    list-style: none;
+}
+
+.project-card.link {
+    text-decoration: none;
+}
+
+.project-card .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: #2E2F42;
+}
+
+.project-card .text {
+    color: #434455;
+}
+
 
 /* Футер */
 .page-footer {
