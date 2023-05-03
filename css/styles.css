@@ -1,4 +1,4 @@
-:root {
+/* 
     --iris:#4D5AE5;
     --ocean:#404BBF;
     --navy-blue:#2E2F42;
@@ -10,14 +10,13 @@
     --navy-blue-modal:#2E2F42;
     --grey:#2E2F42;
     --white:#FFFFFF;
-    --dairy:#FCFCFC;
+    --dairy:#FCFCFC; */
 
-}
 
 /* Цвет текста на все тело */
 body {
-    background-color: var(--white);
-    color: var(--slate);
+    background-color: #FFFFFF;
+    color: #434455;
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
@@ -32,24 +31,28 @@ body {
 
 /* Логотип */
 .logo {
-    color: var(--navy-blue);
+    color: #2E2F42;
 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    text-decoration: none;
+    text-transform: uppercase;
     
 }
 
-.logo .accent {
-    color: var(--iris);
+.logo.link {
+    text-decoration: none;
+}
+
+span.accent {
+    color: #4D5AE5;
 }
 
 /* Стилизирование кнопок */
 .site-nav .link{
-    color: var(--navy-blue);
+    color: #2E2F42;
 
     font-weight: 500;
     font-size: 16px;
@@ -60,33 +63,33 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link:active {
-    color: var(--ocean);
+    color: #404BBF;
 }
 
 .site-nav .link.current {
-    color: var(--ocean);
+    color: #404BBF;
 }
 
 /* Контактная информация */
 .contact-info-link {
-    color: var(--navy-blue);
+    color: #2E2F42;
     text-decoration: none;
 }
 
 .contact-info-link:hover,
 .contact-info-link:focus,
 .contact-info-link:active{
-    color:var(--ocean);
+    color:#404BBF;
 }
 
 /* Главная секция страницы */
 
 .hero {
-    background: var(--navy-blue)
+    background: #2E2F42;
 }
 
 .hero-title {
-    color: var(--white);
+    color: #FFFFFF;
 
     font-weight: 700;
     font-size: 56px;
@@ -96,8 +99,8 @@ body {
 }
 
 .hero .button {
-    background-color: var(--iris);
-    color: var(--white);
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 
     font-family: inherit;
     font-weight: 500;
@@ -110,25 +113,30 @@ body {
 .hero .button:hover,
 .hero .button:focus,
 .hero .button:active {
-    background-color: var(--ocean);
-    color: var(--white);
+    background-color: #404BBF;
+    color: #FFFFFF;
 
 }
 
 /* Стилизация всех главных заголовков */
 .section-title {
-    color: var(--navy-blue);
+    color: #2E2F42;
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+}
+/* Прячем завголовок второй секции */
+.section-title.box {
+    overflow: hidden;
 }
 
 /* Features */
 .features .title{
-    color: var(--navy-bluel);
+    color: #2E2F42;
 
     font-weight: 500;
     font-size: 20px;
@@ -139,7 +147,7 @@ body {
 /* Team-list */
 .team-list .title 
 .work-list .title {
-    color: var(--navy-blue);
+    color: #2E2F42;
 
     font-weight: 500;
     font-size: 20px;
@@ -147,7 +155,7 @@ body {
 }
 
 .team {
-    background-color: var(--cloud);
+    background-color: #F4F4FD;
 }
 
 
@@ -155,9 +163,9 @@ body {
 
 /* Button Portfolio */
 .filter-btn {
-    border-color: var(--cornflower);
-    background-color: var(--cloud);
-    color: var(--iris);
+    border-color: #E7E9FC;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
 
     font-family: inherit;
     font-weight: 500;
@@ -168,9 +176,34 @@ body {
 .filter-btn:hover,
 .filter-btn:focus,
 .filter-btn:active {
-    border-color: var(--ocean);
-    background-color: var(--ocean);
-    color: var(--white);
+    border-color: #404BBF;
+    background-color: #404BBF;
+    color: #FFFFFF;
 
+}
+
+/* Футер */
+.page-footer {
+    background-color: #2E2F42;
+}
+
+.logo-footer { 
+    color: #2E2F42;
+    
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+
+}
+
+.logo-footer.link {
+    text-decoration: none;
+}
+
+.logo-footer .accent {
+    color: #F4F4FD;
 }
 
