@@ -67,15 +67,11 @@ body {
     color: #404BBF;
 }
 
-/* .site-nav .link.current {
-    color: #404BBF;
-} */
-
 /* Контактная информация */
 .contacts {
     font-style: normal;
 }
-.contact-wrap {
+.contact.link {
     color: #434455;
     text-decoration: none;
 }
@@ -154,20 +150,22 @@ body {
 }
 
 /* Team-list */
-.team-list .title 
-.work-list .title {
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-cards {
+    background-color: #FFFFFF;
+}
+
+.team-card .title {
     color: #2E2F42;
 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-
-.team {
-    background-color: #F4F4FD;
-}
-
-
 
 /* Portfolio */
 .filter.list {
@@ -196,8 +194,13 @@ body {
     color: #FFFFFF;
 
 }
-
+ /* Work list */
 .work-list.list {
+    color: #2E2F42;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     list-style: none;
 }
 
