@@ -72,17 +72,17 @@ body {
 } */
 
 /* Контактная информация */
-.contact {
+.contacts {
     font-style: normal;
 }
-.contact-wrap-link {
-    color: #2E2F42;
+.contact-wrap {
+    color: #434455;
     text-decoration: none;
 }
 
-.contact-wrap-link:hover,
-.contact-wrap-link:focus,
-.contact-wrap-link:active{
+.contact.link:hover,
+.contact.link:focus,
+.contact.link:active{
     color:#404BBF;
 }
 
@@ -149,6 +149,9 @@ body {
     letter-spacing: 0.02em;
 }
 
+.section-title.box {
+    visibility: hidden;
+}
 
 /* Team-list */
 .team-list .title 
@@ -163,6 +166,7 @@ body {
 .team {
     background-color: #F4F4FD;
 }
+
 
 
 /* Portfolio */
