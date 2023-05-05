@@ -159,7 +159,6 @@ body {
 }
 
 .team-card .title {
-    background-color: #FFFFFF;
     color: #2E2F42;
 
     font-weight: 500;
@@ -220,6 +219,10 @@ body {
 
 .project-card .text {
     color: #434455;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
