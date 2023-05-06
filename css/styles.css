@@ -154,12 +154,11 @@ body {
     background-color: #F4F4FD;
 }
 
-/* .team-cards {
+.team-card {
     background-color: #FFFFFF;
-} */
+}
 
 .team-card .title {
-    background-color: #FFFFFF;
     color: #2E2F42;
 
     font-weight: 500;
